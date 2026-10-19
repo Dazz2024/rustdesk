@@ -17,6 +17,9 @@ cert.pfx
 *png
 *svg
 *jpg
+# FiberOcean 品牌资源例外（新文件默认被 *png 忽略，须显式放行才能进 CI 构建）
+!flutter/assets/icon.png
+!flutter/assets/logo.png
 sciter.dll
 **pdb
 src/bridge_generated.rs
